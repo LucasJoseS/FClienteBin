@@ -3,11 +3,15 @@ Este programa faz parte de uma atividade desenvolvida durando a material de Estr
 de Dados, na instituição FATEC São José do Rio Preto.
 
 # Como Compilar
-Utilize o Makefile e a ferramenta GNU Make. Simplesmente utilizando o comando:
+## GNU make
 ```
 make build
 ```
-O programa compilado será nomeado como app.
+## Manual
+```
+gcc -c cliente.c 
+gcc -Wall main.c cliente.o -o app
+```
 
 # Para que serve esta aplicação
 Ela aplicação gerencia um arquivo binário no qual armazena a quantidade de registros
