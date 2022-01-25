@@ -14,5 +14,4 @@ gcc -Wall main.c cliente.o -o app
 ```
 
 # Para que serve esta aplicação
-Ela aplicação gerencia um arquivo binário no qual armazena a quantidade de registros
-existemtes e seus registros.
+Está aplicação manipula um arquivo binário que armazena registros de usuários.
